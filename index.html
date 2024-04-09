@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkList</title>
+
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for=""> Input Data :</label>
+            <input type="text" id="data">
+        </div>
+        <div>
+            <label for="">insert in position :</label>
+            <input type="text" id="Pos">
+        </div>
+        <div>
+            <span>
+                <button onclick="PushData()">Push</button>
+                <button onclick="UnshifeData()">Unshife</button>
+                <button onclick="GetData()">Get</button>
+                <button onclick="InsertData()">Insert</button>
+                <button onclick="PopData()">Pop</button>
+                <button onclick="ShiftData()">Shift</button>
+                <button onclick="RemoveData()">Remove</button>
+                <button onclick="SetData()">Set</button>
+                <button onclick="Reset()">Reset</button>
+            </span>
+        </div>
+    </form>
+    <label for="" id="result"></label>
+    <br><label for="" id="showget"></label>
+    <script src="script.js"></script>
+</body>
+</html>
